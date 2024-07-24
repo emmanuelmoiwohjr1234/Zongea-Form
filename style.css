@@ -10,7 +10,7 @@ h1{
 .form{
     width: 400px;
     margin: 2em auto;
-    padding: 1.5em;
+    padding: 2em;
     background-color: #f1f1f1;
     border-radius: 5px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.438);
@@ -32,4 +32,11 @@ button{
 button:hover{
     background-color: rgba(0, 255, 255, 0.267);
     border-color: aqua;
+}
+/* ------responsive -----------*/
+
+@media (max-width:425px){
+    .form{
+        width: 100%;
+    }
 }
